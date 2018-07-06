@@ -32,3 +32,5 @@ interface A {
     a: string
 }
 ```
+
+### Multi API versions in one file
