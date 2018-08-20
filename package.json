@@ -7,7 +7,7 @@
     "tsc": "tsc",
     "tots": "schema2ts schema",
     "prepack": "npm install && npm run tots && tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run tots && tsc"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,7 @@
   "types": "schema.d.ts",
   "homepage": "https://github.com/ts-common/schema#readme",
   "devDependencies": {
-    "@ts-common/schema2ts": "0.0.5"
+    "@ts-common/schema2ts": "0.0.42",
+    "typescript": "^3.0.1"
   }
 }
