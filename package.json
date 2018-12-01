@@ -33,6 +33,6 @@
     "typescript": "^3.2.1"
   },
   "dependencies": {
-    "@ts-common/json": "github:ts-common/json"
+    "@ts-common/json": "^0.1.6"
   }
 }
