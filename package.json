@@ -1,6 +1,6 @@
 {
   "name": "@ts-common/schema",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "JSON-Schema API",
   "main": "index.js",
   "scripts": {
@@ -29,7 +29,10 @@
   "types": "schema.d.ts",
   "homepage": "https://github.com/ts-common/schema#readme",
   "devDependencies": {
-    "@ts-common/schema2ts": "0.0.44",
-    "typescript": "^3.0.1"
+    "@ts-common/schema2ts": "^0.0.47",
+    "typescript": "^3.2.1"
+  },
+  "dependencies": {
+    "@ts-common/json": "github:ts-common/json"
   }
 }

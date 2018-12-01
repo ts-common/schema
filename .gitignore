@@ -62,4 +62,7 @@ typings/
 
 *.d.ts
 *.js
+*.js.map
+*.d.ts.map
 schema.ts
+package-lock.json
